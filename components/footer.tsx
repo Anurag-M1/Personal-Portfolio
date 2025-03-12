@@ -44,31 +44,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 dark:border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm mb-4 sm:mb-0">
+        <div className="border-t border-gray-200 dark:border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 flex justify-center">
+          <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">
             &copy; {new Date().getFullYear()} Anurag Singh. All rights reserved.
           </p>
-
-          <div className="flex flex-wrap gap-2 sm:gap-6 text-xs sm:text-sm justify-center sm:justify-start">
-            <a
-              href="#"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-            >
-              Terms of Service
-            </a>
-            <a
-              href="#"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-            >
-              Sitemap
-            </a>
-          </div>
         </div>
       </div>
     </footer>
