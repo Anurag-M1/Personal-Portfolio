@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
+import MagneticText from "@/components/magnetic-text"
 
 export default function About() {
   return (
@@ -18,7 +19,13 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100">About Me</h2>
+          <MagneticText
+            as="h2"
+            className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100"
+            strength={20}
+          >
+            About Me
+          </MagneticText>
           <div className="h-1 w-20 bg-blue-600 dark:bg-blue-500 mx-auto"></div>
         </motion.div>
 
@@ -46,9 +53,13 @@ export default function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-xl sm:text-2xl font-bold mb-4 text-gray-800 dark:text-gray-100">
+            <MagneticText
+              as="h3"
+              className="text-xl sm:text-2xl font-bold mb-4 text-gray-800 dark:text-gray-100"
+              strength={15}
+            >
               Data Engineer & AI Specialist
-            </h3>
+            </MagneticText>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
               With over 2 years of experience in data engineering and machine learning, I specialize in building
               scalable data pipelines and developing AI solutions that drive business value. My expertise spans across

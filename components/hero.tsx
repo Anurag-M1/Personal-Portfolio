@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Brain, Database, LineChart } from "lucide-react"
+import MagneticText from "@/components/magnetic-text"
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("")
@@ -23,9 +24,14 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-12 sm:py-16 overflow-hidden bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-gray-100 transition-colors duration-300">
       <div className="max-w-7xl mx-auto text-center z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
+          <MagneticText
+            as="h1"
+            className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400"
+            strength={40}
+            radius={300}
+          >
             Anurag Singh
-          </h1>
+          </MagneticText>
 
           <div className="h-8 mb-8">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-gray-700 dark:text-gray-300">
@@ -68,9 +74,13 @@ export default function Hero() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <Database className="h-8 w-8 sm:h-12 sm:w-12 md:h-16 md:w-16 text-blue-600 dark:text-blue-400" />
-            <span className="mt-2 sm:mt-4 text-xs sm:text-lg font-medium text-gray-700 dark:text-gray-300">
+            <MagneticText
+              as="span"
+              className="mt-2 sm:mt-4 text-xs sm:text-lg font-medium text-gray-700 dark:text-gray-300"
+              strength={15}
+            >
               Data Engineering
-            </span>
+            </MagneticText>
           </motion.div>
           <motion.div
             className="flex flex-col items-center"
@@ -78,9 +88,13 @@ export default function Hero() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <Brain className="h-8 w-8 sm:h-12 sm:w-12 md:h-16 md:w-16 text-indigo-600 dark:text-indigo-400" />
-            <span className="mt-2 sm:mt-4 text-xs sm:text-lg font-medium text-gray-700 dark:text-gray-300">
+            <MagneticText
+              as="span"
+              className="mt-2 sm:mt-4 text-xs sm:text-lg font-medium text-gray-700 dark:text-gray-300"
+              strength={15}
+            >
               Machine Learning
-            </span>
+            </MagneticText>
           </motion.div>
           <motion.div
             className="flex flex-col items-center"
@@ -88,9 +102,13 @@ export default function Hero() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <LineChart className="h-8 w-8 sm:h-12 sm:w-12 md:h-16 md:w-16 text-purple-600 dark:text-purple-400" />
-            <span className="mt-2 sm:mt-4 text-xs sm:text-lg font-medium text-gray-700 dark:text-gray-300">
+            <MagneticText
+              as="span"
+              className="mt-2 sm:mt-4 text-xs sm:text-lg font-medium text-gray-700 dark:text-gray-300"
+              strength={15}
+            >
               Data Visualization
-            </span>
+            </MagneticText>
           </motion.div>
         </motion.div>
       </div>

@@ -5,6 +5,7 @@ import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ThemeToggle } from "@/components/theme-toggle"
 import SnowParticles from "@/components/snow-particles"
+import CursorParticles from "@/components/cursor-particles"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-gray-100 dark:bg-gray-900 transition-colors duration-300`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <SnowParticles />
+          <CursorParticles />
           <ThemeToggle />
           {children}
         </ThemeProvider>
