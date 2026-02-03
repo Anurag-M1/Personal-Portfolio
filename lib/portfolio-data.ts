@@ -9,7 +9,7 @@ export const profileData = {
   social: {
     github: 'https://github.com/anurag-M1',
     twitter: 'https://twitter.com/anurag__M1',
-    instagram: 'https://instagram.com/ca_anuragingh',
+    instagram: 'https://instagram.com/ca_anuragsingh',
   },
 }
 
