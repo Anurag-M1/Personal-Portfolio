@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     description: 'Portfolio of Anurag Singh, an AI Engineer and Software Developer specializing in machine learning, data science, and full-stack development.',
     images: [
       {
-        url: '/professional-developer-avatar.png',
+        url: '/anuragsingh.jpg',
         width: 1200,
         height: 630,
         alt: 'Anurag Singh - AI Engineer & Software Developer',
@@ -122,7 +122,7 @@ export default function RootLayout({
     sameAs: [
       'https://github.com/anurag-M1',
       'https://twitter.com/anurag__M1',
-      'https://instagram.com/ca_anuragingh',
+      'https://instagram.com/ca_anuragsingh',
     ],
     knowsAbout: [
       'Machine Learning',
