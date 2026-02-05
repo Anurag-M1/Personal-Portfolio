@@ -168,16 +168,16 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ['all', 'ai/ml', 'web development', 'data science'],
+  categories: ['all', 'Ai/Ml', 'Web Development', 'Data Science'],
   projects: [
     {
-      title: 'AI-Powered Chat Application with RAG',
+      title: 'Music Generation Using LSTM',
       category: 'ai/ml',
-      image: '/modern-ecommerce-website.png',
-      description: 'Intelligent chatbot with Retrieval-Augmented Generation using GPT-4 and vector databases',
-      tech: ['Python', 'LangChain', 'OpenAI API', 'Pinecone', 'FastAPI'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/anuragsingh/rag-chatbot',
+      image: '/Music Generation Using LSTM.png',
+      description: 'Conv1D + LSTM model trained on Bach chorales with a web UI for seed input, generation, playback, and MIDI export.',
+      tech: ['Python', 'TensorFlow', 'Keras', 'music21', 'HTML', 'CSS', 'JavaScript'],
+      liveUrl: 'https://music-generation-using-lstm-43wx.onrender.com',
+      githubUrl: 'https://github.com/Anurag-M1/Music-Generation-Using-LSTM'
     },
     {
       title: 'Computer Vision Object Detection System',
