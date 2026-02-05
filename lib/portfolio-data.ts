@@ -177,16 +177,16 @@ export const portfolioData = {
       description: 'Conv1D + LSTM model trained on Bach chorales with a web UI for seed input, generation, playback, and MIDI export.',
       tech: ['Python', 'TensorFlow', 'Keras', 'music21', 'HTML', 'CSS', 'JavaScript'],
       liveUrl: 'https://music-generation-using-lstm-43wx.onrender.com',
-      githubUrl: 'https://github.com/Anurag-M1/Music-Generation-Using-LSTM'
+      githubUrl: 'https://github.com/Anurag-M1/Music-Generation-Using-LSTM',
     },
     {
-      title: 'Computer Vision Object Detection System',
+      title: 'Live Voice Chat AI',
       category: 'Ai/Ml',
-      image: '/task-management-interface.png',
-      description: 'Real-time object detection and tracking using YOLO and deep learning models',
-      tech: ['PyTorch', 'YOLOv8', 'OpenCV', 'TensorRT', 'Kubernetes'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/anuragsingh/cv-detection',
+      image: '/Live Voice Chat AI.png',
+      description: 'Real-time voice chat with streaming audio, live transcription, and low-latency responses',
+      tech: ['React', 'FastAPI', 'WebSockets', 'Moshi', 'Modal'],
+      liveUrl: 'https://live-voice-chat-ai.onrender.com',
+      githubUrl: 'https://github.com/Anurag-M1/live-voice-chat-ai',
     },
     {
       title: 'LLM Fine-tuning & Prompt Engineering',
