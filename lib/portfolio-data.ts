@@ -172,7 +172,7 @@ export const portfolioData = {
   projects: [
     {
       title: 'Music Generation Using LSTM',
-      category: 'ai/ml',
+      category: 'Ai/Ml',
       image: '/Music Generation Using LSTM.png',
       description: 'Conv1D + LSTM model trained on Bach chorales with a web UI for seed input, generation, playback, and MIDI export.',
       tech: ['Python', 'TensorFlow', 'Keras', 'music21', 'HTML', 'CSS', 'JavaScript'],
@@ -181,7 +181,7 @@ export const portfolioData = {
     },
     {
       title: 'Computer Vision Object Detection System',
-      category: 'ai/ml',
+      category: 'Ai/Ml',
       image: '/task-management-interface.png',
       description: 'Real-time object detection and tracking using YOLO and deep learning models',
       tech: ['PyTorch', 'YOLOv8', 'OpenCV', 'TensorRT', 'Kubernetes'],
@@ -190,7 +190,7 @@ export const portfolioData = {
     },
     {
       title: 'LLM Fine-tuning & Prompt Engineering',
-      category: 'ai/ml',
+      category: 'Ai/Ml',
       image: '/minimalist-portfolio-design.jpg',
       description: 'Fine-tuned language models for domain-specific tasks with advanced prompt engineering',
       tech: ['Hugging Face', 'LoRA', 'QLoRA', 'Transformers', 'MLflow'],
@@ -199,7 +199,7 @@ export const portfolioData = {
     },
     {
       title: 'Time Series Forecasting Dashboard',
-      category: 'data science',
+      category: 'Data Science',
       image: '/analytics-dashboard.png',
       description: 'Predictive analytics platform for financial time series using ARIMA and neural networks',
       tech: ['TensorFlow', 'Pandas', 'Scikit-learn', 'Plotly', 'Flask'],
@@ -208,7 +208,7 @@ export const portfolioData = {
     },
     {
       title: 'ML Pipeline with MLOps',
-      category: 'ai/ml',
+      category: 'Ai/Ml',
       image: '/banking-app-interface.png',
       description: 'Production-grade ML pipeline with CI/CD, monitoring, and automated retraining',
       tech: ['TensorFlow', 'Docker', 'GitHub Actions', 'Prometheus', 'PostgreSQL'],
@@ -217,7 +217,7 @@ export const portfolioData = {
     },
     {
       title: 'Agentic AI System with Tool Calling',
-      category: 'ai/ml',
+      category: 'Ai/Ml',
       image: '/restaurant-website-design.png',
       description: 'Autonomous agent framework with function calling and multi-step reasoning capabilities',
       tech: ['OpenAI Assistants', 'React', 'Node.js', 'PostgreSQL', 'Redis'],
