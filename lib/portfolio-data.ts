@@ -171,13 +171,25 @@ export const portfolioData = {
   categories: ['all', 'Ai/Ml', 'Web Development', 'Data Science'],
   projects: [
     {
-      title: 'Music Generation Using LSTM',
-      category: 'Ai/Ml',
-      image: '/Music Generation Using LSTM.png',
-      description: 'Conv1D + LSTM model trained on Bach chorales with a web UI for seed input, generation, playback, and MIDI export.',
-      tech: ['Python', 'TensorFlow', 'Keras', 'music21', 'HTML', 'CSS', 'JavaScript'],
-      liveUrl: 'https://music-generation-using-lstm-43wx.onrender.com',
-      githubUrl: 'https://github.com/Anurag-M1/Music-Generation-Using-LSTM',
+       title: 'SelfGPT',
+  category: 'Ai/Ml',
+  image: '/SelfGPT.png',
+  description: 'Private production-ready LangChain + LangSmith chat app with multi-LLM support, PDF-RAG, web search, and observability. Built with Next.js + FastAPI and supports Groq, OpenAI, DeepSeek, Grok, Anthropic, Gemini, and Mistral.',
+  tech: [
+    'Next.js',
+    'React',
+    'TypeScript',
+    'Tailwind CSS',
+    'FastAPI',
+    'Python',
+    'LangChain',
+    'LangSmith',
+    'FAISS',
+    'SentenceTransformers',
+    'SQLite'
+  ],
+  liveUrl: 'https://self-gpt-iota.vercel.app',
+  githubUrl: 'https://github.com/Anurag-M1/SelfGPT',
     },
     {
       title: 'Live Voice Chat AI',
