@@ -172,7 +172,7 @@ export const portfolioData = {
   projects: [
     {
       title: 'SelfGPT Studio',
-      category: 'Ai/Ml','Web Development',
+      category: ['Ai/Ml', 'Web Development'],
       image: 'SelfGPT Studio.png',
       description: 'Local-first, self-hosted AI IDE that generates multi-file full-stack apps, runs them locally with live preview, agents, snapshots/diffs, and export/import using your own LLM keys.',
       tech: ['Next.js', 'React', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'WebSockets', 'Monaco Editor'],
