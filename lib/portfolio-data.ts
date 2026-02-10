@@ -172,7 +172,7 @@ export const portfolioData = {
   projects: [
     {
       title: 'SelfGPT Studio',
-      category: ['Ai/Ml', 'Web Development'],
+      category: 'Ai/Ml',
       image: 'SelfGPT Studio.png',
       description: 'Local-first, self-hosted AI IDE that generates multi-file full-stack apps, runs them locally with live preview, agents, snapshots/diffs, and export/import using your own LLM keys.',
       tech: ['Next.js', 'React', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'WebSockets', 'Monaco Editor'],
@@ -218,6 +218,57 @@ export const portfolioData = {
       liveUrl: 'https://music-generation-using-lstm-43wx.onrender.com',
       githubUrl: 'https://github.com/Anurag-M1/Music-Generation-Using-LSTM',
     },
+    {
+  title: "CSVTU Student Resource Hub",
+  category: "Web Development",
+  image: "/csvtu.png",
+  description:
+    "Student-first academic resource platform for CSVTU providing syllabus, PYQs, notes, question banks, and videos for B.Tech, M.Tech, and Diploma students. Built as a centralized hub to help students prepare efficiently for exams and coursework.",
+  tech: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Web Development",
+    "Content Management",
+    "Education Platform"
+  ],
+  liveUrl: "https://csvtu.site",
+  githubUrl: "https://github.com/Anurag-M1/CSVTU-Unofficial"
+},
+    {
+  title: "British Airways Reviews Dashboard",
+  category: "Data Analytics",
+  image: "/BAR.png",
+  description:
+    "Interactive Tableau dashboard analyzing British Airways customer reviews across countries, aircraft types, and experience levels. Includes dynamic metric selection, geographic analysis, KPI summaries, and trend exploration.",
+  tech: [
+    "Tableau",
+    "Data Visualization",
+    "Dashboard Design",
+    "Data Analysis",
+    "CSV",
+    "Business Intelligence"
+  ],
+  liveUrl: "https://github.com/Anurag-M1/Britis-Airways-Reviews-Tableau-Dashboard-Project",
+  githubUrl: "https://github.com/Anurag-M1/Britis-Airways-Reviews-Tableau-Dashboard-Project"
+},
+    {
+  title: "Data Science Salary Analytics Dashboard",
+  category: "Data Analytics",
+  image: "/Data Science.png",
+  description:
+    "Professional Tableau dashboard exploring global data science salaries by job title, experience level, company size, and location. Features interactive filters, salary heatmaps, KPI insights, and role-based salary comparisons.",
+  tech: [
+    "Tableau",
+    "Data Visualization",
+    "Business Intelligence",
+    "Dashboard Development",
+    "Data Storytelling",
+    "Analytics"
+  ],
+  liveUrl: "https://github.com/Anurag-M1/Data-Science-Salary-Analytics-Dashboard-Tableau-Project",
+  githubUrl: "https://github.com/Anurag-M1/Data-Science-Salary-Analytics-Dashboard-Tableau-Project"
+},
   ],
 }
 
