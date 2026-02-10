@@ -221,7 +221,7 @@ export const portfolioData = {
     {
   title: "CSVTU Student Resource Hub",
   category: "Web Development",
-  image: "/csvtu.png",
+  image: "/CSVTU.png",
   description:
     "Student-first academic resource platform for CSVTU providing syllabus, PYQs, notes, question banks, and videos for B.Tech, M.Tech, and Diploma students. Built as a centralized hub to help students prepare efficiently for exams and coursework.",
   tech: [
