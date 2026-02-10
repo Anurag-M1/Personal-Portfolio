@@ -211,7 +211,7 @@ export const portfolioData = {
     },
     {
    title: 'Music Generation Using LSTM',
-      category: 'Ai/Ml',
+      category: 'Ml',
       image: '/Music Generation Using LSTM.png',
       description: 'Conv1D + LSTM model trained on Bach chorales with a web UI for seed input, generation, playback, and MIDI export.',
       tech: ['Python', 'TensorFlow', 'Keras', 'music21', 'HTML', 'CSS', 'JavaScript'],
