@@ -168,11 +168,11 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ['all', 'Ai/Ml', 'Web Development', 'Data Science'],
+  categories: ['all', 'Ai', 'ML', 'Web Development', 'Data Science'],
   projects: [
     {
       title: 'SelfGPT Studio',
-      category: 'Ai/Ml',
+      category: 'Ai',
       image: 'SelfGPT Studio.png',
       description: 'Local-first, self-hosted AI IDE that generates multi-file full-stack apps, runs them locally with live preview, agents, snapshots/diffs, and export/import using your own LLM keys.',
       tech: ['Next.js', 'React', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'WebSockets', 'Monaco Editor'],
@@ -181,7 +181,7 @@ export const portfolioData = {
     },
     {
        title: 'SelfGPT',
-  category: 'Ai/Ml',
+  category: 'Ai',
   image: '/SelfGPT.png',
   description: 'Private production-ready LangChain + LangSmith chat app with multi-LLM support, PDF-RAG, web search, and observability. Built with Next.js + FastAPI and supports Groq, OpenAI, DeepSeek, Grok, Anthropic, Gemini, and Mistral.',
   tech: [
@@ -220,7 +220,7 @@ export const portfolioData = {
 },
     {
       title: 'Live Voice Chat AI',
-      category: 'Ai/Ml',
+      category: 'Ai',
       image: '/Live Voice Chat AI.png',
       description: 'Real-time voice chat with streaming audio, live transcription, and low-latency responses',
       tech: ['React', 'FastAPI', 'WebSockets', 'Moshi', 'Modal'],
@@ -229,7 +229,7 @@ export const portfolioData = {
     },
     {
    title: 'Music Generation Using LSTM',
-      category: 'Ml',
+      category: 'ML',
       image: '/Music Generation Using LSTM.png',
       description: 'Conv1D + LSTM model trained on Bach chorales with a web UI for seed input, generation, playback, and MIDI export.',
       tech: ['Python', 'TensorFlow', 'Keras', 'music21', 'HTML', 'CSS', 'JavaScript'],
