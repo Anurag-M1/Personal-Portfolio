@@ -202,7 +202,7 @@ export const portfolioData = {
     },
      {
   title: 'Patent Research Assistant',
-  category: 'Ai/Ml',
+  category: 'Crew Agentic Ai',
   image: '/PIR.png',
   description: 'AI project for patent discovery, trend analysis, and forecasting using OpenRouter + OpenSearch.',
   tech: ['Streamlit', 'FastAPI', 'OpenRouter', 'OpenSearch', 'RAG'],
@@ -211,7 +211,7 @@ export const portfolioData = {
 },
      {
   title: 'Stock Analysis Crew AI',
-  category: 'Ai/Ml',
+  category: 'Crew Agentic Ai',
   image: '/Stock Crew AI.png',
   description: 'Multi-agent stock analysis system built with CrewAI that gathers market/news context, reviews financial signals and SEC filings, and generates investment recommendations.',
   tech: ['CrewAI', 'FastAPI', 'Python', 'Groq', 'xAI', 'HTML', 'JavaScript'],
