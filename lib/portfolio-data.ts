@@ -201,8 +201,8 @@ export const portfolioData = {
   githubUrl: 'https://github.com/Anurag-M1/SelfGPT',
     },
    {
-  title: 'LLM From Scratch & Fine-Tuning Studio',
-  category: 'AI/LLM',
+  title: 'LLM From Scratch & Fine-Tuning',
+  category: 'LLM & Fine-Tuning',
   image: 'llm & Finetuning.png',
   description: 'End-to-end implementation of a GPT-style large language model built from scratch in PyTorch with tokenization, embeddings, transformer blocks, and autoregressive generation. Includes instruction fine-tuning, checkpoint export, and a local Streamlit chat UI for loading .pth models and interactive prompting.',
   tech: [
