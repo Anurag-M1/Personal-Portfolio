@@ -200,6 +200,24 @@ export const portfolioData = {
   liveUrl: 'https://self-gpt-iota.vercel.app',
   githubUrl: 'https://github.com/Anurag-M1/SelfGPT',
     },
+   {
+  title: 'LLM From Scratch & Fine-Tuning Studio',
+  category: 'AI/LLM',
+  image: 'llm & Finetuning.png',
+  description: 'End-to-end implementation of a GPT-style large language model built from scratch in PyTorch with tokenization, embeddings, transformer blocks, and autoregressive generation. Includes instruction fine-tuning, checkpoint export, and a local Streamlit chat UI for loading .pth models and interactive prompting.',
+  tech: [
+    'Python',
+    'PyTorch',
+    'Transformers (from-scratch)',
+    'Streamlit',
+    'NumPy',
+    'Tokenization',
+    'Instruction Fine-tuning',
+    'LLM Training'
+  ],
+  liveUrl: 'https://llm-finetuning-ykwu.onrender.com',
+  githubUrl: 'https://github.com/Anurag-M1/SelfGPT-Studio' // change if repo name differs
+},
      {
   title: 'Patent Research Assistant',
   category: 'Crew Agentic Ai',
