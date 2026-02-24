@@ -168,7 +168,7 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ['all', 'Ai', 'ML', 'Web Development', 'Data Science'],
+  categories: ['all', 'Ai', 'ML', 'RAG', 'Data Science'],
   projects: [
     {
       title: 'SelfGPT Studio',
@@ -217,6 +217,42 @@ export const portfolioData = {
   ],
   liveUrl: 'https://llm-finetuning-ykwu.onrender.com',
   githubUrl: 'https://github.com/Anurag-M1/SelfGPT-Studio' // change if repo name differs
+},
+     {
+  title: 'Self-RAG: Grounded QA over Internal PDFs',
+  category: 'Agentic AI / RAG Systems',
+  image: '/SRAG.png',
+  description:
+    'Notebook-based Self-RAG pipeline using LangGraph + LangChain for grounded question answering over internal company PDFs. Includes retrieval routing, relevance filtering, support verification, and usefulness checks to reduce hallucinations.',
+  tech: [
+    'LangGraph',
+    'LangChain',
+    'OpenAI',
+    'FAISS',
+    'Python',
+    'RAG',
+    'Jupyter Notebook'
+  ],
+  liveUrl: 'https://github.com/Anurag-M1/Self-RAG/blob/main/self_rag.ipynb',
+  githubUrl: 'https://github.com/Anurag-M1/Self-RAG',
+},
+     {{
+  title: 'Corrective RAG: Adaptive Retrieval with Web Fallback',
+  category: 'Agentic RAG Systems',
+  image: '/CRAG.png',
+  description:
+    'LangGraph-based Corrective RAG pipeline that grades retrieval quality, conditionally falls back to web search, refines context at sentence level, and generates strictly grounded answers.',
+  tech: [
+    'LangGraph',
+    'LangChain',
+    'OpenAI',
+    'FAISS',
+    'Tavily Search',
+    'Python',
+    'RAG'
+  ],
+  liveUrl: 'https://github.com/Anurag-M1/Corrective-RAG/blob/main/Corrective%20RAG.ipynb',
+  githubUrl: 'https://github.com/Anurag-M1/Corrective-RAG',
 },
      {
   title: 'Patent Research Assistant',
