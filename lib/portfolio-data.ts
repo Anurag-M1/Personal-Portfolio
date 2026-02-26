@@ -238,7 +238,7 @@ export const portfolioData = {
 },
      {
   title: 'Corrective RAG: Adaptive Retrieval with Web Fallback',
-  category: 'Agentic RAG Systems',
+  category: 'RAG',
   image: '/CRAG.png',
   description:
     'LangGraph-based Corrective RAG pipeline that grades retrieval quality, conditionally falls back to web search, refines context at sentence level, and generates strictly grounded answers.',
