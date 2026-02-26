@@ -220,7 +220,7 @@ export const portfolioData = {
 },
      {
   title: 'Self-RAG: Grounded QA over Internal PDFs',
-  category: 'Agentic AI / RAG Systems',
+  category: 'RAG',
   image: '/SRAG.png',
   description:
     'Notebook-based Self-RAG pipeline using LangGraph + LangChain for grounded question answering over internal company PDFs. Includes retrieval routing, relevance filtering, support verification, and usefulness checks to reduce hallucinations.',
@@ -236,7 +236,7 @@ export const portfolioData = {
   liveUrl: 'https://github.com/Anurag-M1/Self-RAG/blob/main/self_rag.ipynb',
   githubUrl: 'https://github.com/Anurag-M1/Self-RAG',
 },
-     {{
+     {
   title: 'Corrective RAG: Adaptive Retrieval with Web Fallback',
   category: 'Agentic RAG Systems',
   image: '/CRAG.png',
@@ -284,7 +284,7 @@ export const portfolioData = {
     {
   title: 'Custom RAG Assistant',
   category: 'RAG',
-  image: '/CRA.png',
+  image: '/CRAG.png',
   description: 'Production-ready RAG assistant that enables conversational search over private knowledge bases. Built with Qdrant vector DB, FastEmbed embeddings, and Groq LLMs, the system supports multi-format document ingestion, configurable models, and robust retrieval handling for real-world AI applications.',
   tech: ['Python', 'Streamlit', 'Qdrant', 'FastEmbed', 'Groq', 'Vector DB', 'RAG', 'LLMs'],
   liveUrl: 'https://custom-rag-assistant.onrender.com',
