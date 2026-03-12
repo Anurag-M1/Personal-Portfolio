@@ -75,6 +75,12 @@ export const resumeData = {
   ],
   certifications: [
     {
+  "title": "Forward Program",
+  "issuer": "McKinsey & Company",
+  "date": "Apr 2026",
+  "credentialUrl": "PASTE_YOUR_CREDENTIAL_LINK_HERE"
+},
+    {
       title: "Enterprise Data Science in Practice",
       issuer: "IBM SkillsBuild",
       date: "Nov 2025",
@@ -106,7 +112,7 @@ export const resumeData = {
     },
         {
   title: "Software Engineering Virtual Experience",
-  issuer: "Quantium (Forage)",
+  issuer: "Quantium",
   date: "Mar 2026",
   credentialUrl: "https://drive.google.com/file/d/1a8IzpBw93_IigJJClXG6rz34NjXb0hea/view?usp=share_link"
 },
@@ -126,7 +132,7 @@ export const resumeData = {
     },
     {
       title: "GenAI Virtual Intern",
-      company: "Forage",
+      company: "BCG (Forage)",
       period: "Nov 2025 – Jan 2026",
       description: "Completed hands-on GenAI job simulation involving data extraction, initial analysis, and development of an AI-powered financial chatbot."
     },
