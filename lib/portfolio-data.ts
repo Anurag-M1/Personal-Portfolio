@@ -75,6 +75,12 @@ export const resumeData = {
   ],
   certifications: [
     {
+  title: "Software Engineering Virtual Experience",
+  issuer: "JPMorgan Chase & Co. (Forage)",
+  date: "Mar 2026",
+  credentialUrl: "https://drive.google.com/file/d/1QJQdY310CJWoB0kfEHgRAUc4Wt8bADcY/view?usp=share_link"
+},
+    {
       title: "Enterprise Data Science in Practice",
       issuer: "IBM SkillsBuild",
       date: "Nov 2025",
@@ -104,6 +110,12 @@ export const resumeData = {
       date: "Jun 2024",
       credentialUrl: "https://drive.google.com/file/d/1_pWXVPLW-0h29HVEHEVeF3lazsdcsZq4/view?usp=share_link"
     },
+        {
+  title: "Software Engineering Virtual Experience",
+  issuer: "Quantium (Forage)",
+  date: "Mar 2026",
+  credentialUrl: "https://drive.google.com/file/d/1a8IzpBw93_IigJJClXG6rz34NjXb0hea/view?usp=share_link"
+},
     {
       title: "Software Engineer Certification",
       issuer: "HackerRank",
