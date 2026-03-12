@@ -75,12 +75,6 @@ export const resumeData = {
   ],
   certifications: [
     {
-  title: "Software Engineering Virtual Experience",
-  issuer: "JPMorgan Chase & Co. (Forage)",
-  date: "Mar 2026",
-  credentialUrl: "https://drive.google.com/file/d/1QJQdY310CJWoB0kfEHgRAUc4Wt8bADcY/view?usp=share_link"
-},
-    {
       title: "Enterprise Data Science in Practice",
       issuer: "IBM SkillsBuild",
       date: "Nov 2025",
@@ -147,7 +141,13 @@ export const resumeData = {
       company: "Intern Certify",
       period: "May 2025 – Nov 2025",
       description: "Completed a 6-month Data Science Internship program focusing on data analysis, applied machine learning concepts, and real-world project implementation."
-    }
+    },
+     {
+  title: "Software Engineering Virtual Experience",
+  comapny: "JPMorgan Chase & Co. (Forage)",
+  period: "Mar 2026",
+  description : "Designed a transaction processing system demonstrating decoupled architecture, balance validation logic, and incentive service integration."
+},
   ],
   experience: [
     {
